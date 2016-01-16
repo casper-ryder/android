@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中listview时背景色改变 -->
+    <item android:drawable="@color/listpressed"
+        android:state_pressed="true"
+        android:state_selected="false"
+        />
+
+</selector>

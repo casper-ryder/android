@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/sendcontent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="top"
+        android:padding="5dp"
+        android:height="150dp"
+        android:width="350dp"
+        android:background="@drawable/textview_border"
+        android:hint="@string/send_hint"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobilenum"
+        android:layout_below="@+id/sendcontent"
+        android:layout_centerHorizontal="true"
+        android:height="50dp"
+        android:width="350dp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/textview_border"
+        android:hint="@string/mobilenum_hint"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350dp"
+        android:text="@string/send_button"
+        android:id="@+id/send"
+        android:layout_below="@+id/mobilenum"
+        android:layout_alignStart="@+id/mobilenum"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape1"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="350dp"
+        android:text="@string/checkconnect_button"
+        android:id="@+id/checkconnect"
+        android:layout_below="@+id/send"
+        android:layout_alignStart="@+id/send"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_shape2"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

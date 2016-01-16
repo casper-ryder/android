@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">短信测试平台</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">增加账号</string>
+
+    <string name="send_hint">请输入发送内容</string>
+    <string name="mobilenum_hint">请输入手机号码</string>
+    <string name="send_button">发  送  短  信</string>
+    <string name="checkconnect_button">检查网络联通性</string>
+    <string name="ip_hint">请输入ip</string>
+    <string name="port_hint">请输入端口号</string>
+    <string name="username_hint">请输入账户名</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="addaccount_button">保        存</string>
+    <string name="remark">备注</string>
+</resources>
